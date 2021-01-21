@@ -15,5 +15,5 @@ Got the ruleset generation running. A user can enter a search word and build a r
 \# Searches Rule files for A7; A7 correlates to OWASP Top 10 number 7: Cross Site Scripting vulnerability (XSS).
 ./search_semgrep_build_custom_ruleset.sh A7 
 
-\# After running this script the ruleset.yaml file will be generated to run in the following command.
-python3 -m semgrep --config ruleset.yaml <repo to be scanned> # this may vary depending on how semgrep was installed.
+\# After running this script the ruleset.yaml file will be generated to run in the following command:</br>
+python3 -m semgrep --config ruleset.yaml \<repo to be scanned\> \# this may vary depending on how semgrep was installed.
